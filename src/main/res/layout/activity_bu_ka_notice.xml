@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f5"
+    android:orientation="vertical"
+    tools:context="com.example.myaliapplication.activity.BuKaNoticeActivity">
+
+    <include layout="@layout/layout_service_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dp_140"
+            android:layout_height="@dimen/dp_140"
+            android:src="@drawable/bukanotice" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:gravity="center"
+            android:text="系统提示"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_4"
+            android:gravity="center"
+            android:paddingEnd="@dimen/dp_30"
+            android:paddingStart="@dimen/dp_30"
+            android:text="身份证号是:4****************8的用户，\n社保卡不是挂失状态，请先进行挂失操作"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_4"
+            android:gravity="center"
+            android:text="如有疑问请咨询当地社保局"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

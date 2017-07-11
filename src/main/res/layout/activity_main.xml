@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myradio="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.myaliapplication.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e7e7e7"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/layout_containers"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:background="#dfdfdf" />
+
+        <LinearLayout
+            android:id="@+id/rl_rab"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:splitMotionEvents="false">
+
+            <LinearLayout
+                android:id="@+id/ll_tab1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:splitMotionEvents="false">
+
+                <ImageView
+                    android:id="@+id/img_tab1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/tab_pic_selector" />
+
+                <TextView
+                    android:id="@+id/tv_tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center_horizontal"
+                    android:text="首页"
+                    android:textColor="@drawable/tab_color_selector"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tab2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:splitMotionEvents="false">
+
+                <ImageView
+                    android:id="@+id/img_tab2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/tab_pic_selector2" />
+
+                <TextView
+                    android:id="@+id/tv_tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center_horizontal"
+                    android:text="口碑"
+                    android:textColor="@drawable/tab_color_selector"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tab3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:splitMotionEvents="false">
+
+                <ImageView
+                    android:id="@+id/img_tab3"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/tab_pic_selector3" />
+
+                <TextView
+                    android:id="@+id/tv_tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center_horizontal"
+                    android:text="朋友"
+                    android:textColor="@drawable/tab_color_selector"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tab4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:splitMotionEvents="false">
+
+                <ImageView
+                    android:id="@+id/img_tab4"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/tab_pic_selector4" />
+
+                <TextView
+                    android:id="@+id/tv_tab4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center_horizontal"
+                    android:text="我的"
+                    android:textColor="@drawable/tab_color_selector"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

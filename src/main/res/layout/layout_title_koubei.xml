@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:background="@color/blue_dark"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp">
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="郑州"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_expand"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_toEndOf="@+id/tv_city"
+        android:layout_toStartOf="@+id/iv_contact_expand"
+        android:background="@drawable/shape_search"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp">
+
+        <ImageView
+            android:id="@+id/iv_search_expand"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_search" />
+
+        <EditText
+            android:id="@+id/edi_search_expand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/iv_search_expand"
+            android:layout_toStartOf="@+id/iv_yuyin"
+            android:background="@null"
+            android:hint="搜索商品"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:textColorHint="@color/white"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_yuyin"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/yuyin" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_contact_expand"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/lianxiren" />
+
+</RelativeLayout>

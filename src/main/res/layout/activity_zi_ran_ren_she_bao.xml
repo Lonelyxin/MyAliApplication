@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f5"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.example.myaliapplication.activity.ZiRanRenSheBaoActivity">
+
+    <include layout="@layout/layout_service_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginTop="@dimen/dp_30"
+                android:background="#dfdfdf" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dp_18"
+                android:text="自然人社保费缴费"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginStart="@dimen/dp_18"
+                android:background="#dfdfdf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_18">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:alpha="0.8"
+                    android:gravity="center_vertical"
+                    android:text="姓名"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:alpha="0.8"
+                    android:gravity="center_vertical"
+                    android:text="姓名"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginStart="@dimen/dp_18"
+                android:background="#dfdfdf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_18">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:alpha="0.8"
+                    android:gravity="center_vertical"
+                    android:text="身份证号码"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:alpha="0.8"
+                    android:gravity="center_vertical"
+                    android:text="4****************2"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginStart="@dimen/dp_18"
+                android:background="#dfdfdf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_18">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:alpha="0.8"
+                    android:gravity="center_vertical"
+                    android:text="是否代缴"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+
+                    <com.suke.widget.SwitchButton
+                        android:id="@+id/sb_button"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        app:sb_show_indicator="false" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginStart="@dimen/dp_18"
+                android:background="#dfdfdf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_18">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:alpha="0.8"
+                    android:gravity="center_vertical"
+                    android:text="姓名"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edit_name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:alpha="0.8"
+                    android:background="@color/transparent"
+                    android:enabled="false"
+                    android:gravity="center_vertical"
+                    android:hint="请输入姓名"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginStart="@dimen/dp_18"
+                android:background="#dfdfdf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_18">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:alpha="0.8"
+                    android:gravity="center_vertical"
+                    android:text="身份证号码"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edit_num"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:alpha="0.8"
+                    android:background="@color/transparent"
+                    android:enabled="false"
+                    android:gravity="center_vertical"
+                    android:hint="请输入身份证号码"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_marginStart="@dimen/dp_18"
+                android:background="#dfdfdf" />
+
+            <Button
+                android:id="@+id/bt_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
+                android:layout_margin="@dimen/dp_18"
+                android:background="@drawable/shape_bt2"
+                android:padding="@dimen/dp_4"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.6"
+                android:paddingStart="@dimen/dp_18"
+                android:text="使用说明"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:alpha="0.6"
+                android:paddingEnd="@dimen/dp_18"
+                android:paddingStart="@dimen/dp_18"
+                android:text="@string/shebaoshuoming1"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:alpha="0.7"
+                android:paddingEnd="@dimen/dp_18"
+                android:paddingStart="@dimen/dp_18"
+                android:text="@string/shebaoshuoming2"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:alpha="0.6"
+                android:paddingEnd="@dimen/dp_18"
+                android:paddingStart="@dimen/dp_18"
+                android:text="@string/shebaoshuoming3"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:alpha="0.6"
+                android:paddingEnd="@dimen/dp_18"
+                android:paddingStart="@dimen/dp_18"
+                android:text="@string/shebaoshuoming4"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_4"
+                android:layout_marginTop="@dimen/dp_4"
+                android:alpha="0.6"
+                android:paddingEnd="@dimen/dp_18"
+                android:paddingStart="@dimen/dp_18"
+                android:text="@string/shebaoshuoming5"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_f5"
+        android:gravity="center"
+        android:padding="@dimen/dp_4"
+        android:text="本服务由河南省地方税务局提供"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#cccccc</color>
+    <color name="red">#ff0000</color>
+    <color name="orange_light">#ffffdd</color>
+    <color name="blue_light">#aaaaff</color>
+    <color name="blue_dark">#1983d1</color>
+    <color name="blue_mask">#001983d1</color>
+    <color name="blue_black">#1673b8</color>
+
+    <!-- ali color -->
+    <color name="alipayColor">#108ee9</color>
+    <color name="alipayColor2">#00aaee</color>
+    <color name="alipayColor_disable">#ffdddddd</color>
+    <color name="alipayColor_press">#ff1284d6</color>
+    <color name="colorBlack">#ff000000</color>
+    <color name="popmenu_devider">#47989898</color>
+    <color name="popmenu_item_press">#fff6f6f7</color>
+    <color name="sdk_auth_font">#ff000000</color>
+    <color name="sdk_black">#ff000000</color>
+    <color name="sdk_forget_password_color">#ffd9ab9e</color>
+    <color name="sdk_headGrey">#fff3f3f3</color>
+    <color name="sdk_headYellow">#fff5f5f5</color>
+    <color name="sdk_indexGrey">#ffeaeaea</color>
+    <color name="sdk_lightBlue">#ff02bdf4</color>
+    <color name="sdk_list_bg">#ffe9e9e9</color>
+    <color name="sdk_seekbar_bg">#ff3e3e3e</color>
+    <color name="sdk_seekbar_fill">#ff38e9eb</color>
+    <color name="sdk_set_auth_color">#ff316288</color>
+    <color name="sdk_title">#ff0f1922</color>
+    <color name="sdk_titleFontGrey">#ffffffff</color>
+    <color name="sdk_white">#ffffffff</color>
+    <color name="sdk_white_light">#ffeeffff</color>
+    <color name="titlebar_btn_press">#301d202f</color>
+    <color name="titlebar_btn_trans">#00ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_background">#b3000000</color>
+    <color name="whiteA20_line">#33ffffff</color>
+
+    <color name="gray_c4">#c4c4c4</color>
+    <color name="gray_d">#dddddd</color>
+    <color name="gray_e4">#e4e4e4</color>
+    <color name="gray_e7">#e7e7e7</color>
+    <color name="gray_ef4">#efeff4</color>
+    <color name="gray_f5">#f5f5f9</color>
+    <color name="gray_f3">#f3f3f3</color>
+    <color name="gray_fa">#fafafa</color>
+    <color name="gray_fe">#fefefe</color>
+    <color name="gray_ef">#efefef</color>
+    <color name="gray_95">#959595</color>
+    <color name="gray_fb">#fbfbfb</color>
+    <color name="blue_1b">#1b82d2</color>
+    <color name="green_64">#64b8a3</color>
+    <color name="yellow_f39">#f39a00</color>
+
+    <color name="color_tab1">#4ba2e7</color>
+    <color name="color_tab2">#ffb415</color>
+    <color name="color_tab3">#4ba2e7</color>
+    <color name="color_tab4">#29ab91</color>
+    <color name="color_tab5">#f15a4a</color>
+</resources>

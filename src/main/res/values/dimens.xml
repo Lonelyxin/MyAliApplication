@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="toolbar_height">45dp</dimen>
+    <dimen name="toolbar_height2">50dp</dimen>
+
+    <!-- ali dimens -->
+    <dimen name="big_font_size">20.0dip</dimen>
+    <dimen name="defaultFontSize">16.0dip</dimen>
+    <dimen name="notice_default_margin">14.0dip</dimen>
+    <dimen name="notice_dialog_default_padding">20.0dip</dimen>
+    <dimen name="notice_dialog_width_margin_window">80.0dip</dimen>
+    <dimen name="popmenu_default_width">210.0dip</dimen>
+    <dimen name="popmenu_list_height">361.29688dip</dimen>
+    <dimen name="popmenu_margin_left">4.299988dip</dimen>
+    <dimen name="popmenu_margin_left_menu_top">2.5999756dip</dimen>
+    <dimen name="popmenu_margin_right">31.0dip</dimen>
+    <dimen name="popmenu_margin_top_btn">8.0dip</dimen>
+    <dimen name="popmenu_short_width">150.0dip</dimen>
+    <dimen name="sdk_btn_padding">10.0dip</dimen>
+    <dimen name="sdk_text_size_14">14.0sp</dimen>
+    <dimen name="sdk_text_size_16">16.0sp</dimen>
+    <dimen name="sdk_text_size_18">18.0sp</dimen>
+    <dimen name="sdk_text_size_large">22.0sp</dimen>
+    <dimen name="sdk_text_size_medium">15.0sp</dimen>
+    <dimen name="sdk_text_size_small">12.0sp</dimen>
+    <dimen name="sdk_title_height">46.0dip</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="dp_0_8">0.8dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_55">55dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_120">120dp</dimen>
+    <dimen name="dp_140">140dp</dimen>
+    <dimen name="dp_175">175dp</dimen>
+    <dimen name="dp_180">180dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_300">300dp</dimen>
+</resources>

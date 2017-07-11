@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingBottom="50dp"
+    android:paddingTop="80dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/tishi"
+        android:gravity="center"
+        android:drawablePadding="12dp"
+        android:text="在这里，你将看到跟你有关的服务信息"
+        android:textSize="@dimen/sdk_text_size_14"/>
+
+</LinearLayout>

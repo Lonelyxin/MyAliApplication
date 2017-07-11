@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_mine"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/alipayColor"
+    android:gravity="center_vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/img_pic"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:background="@drawable/my_touxiang"
+        android:padding="2.5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/touxiang" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/my_star" />
+
+    <LinearLayout
+        android:id="@+id/ly_lin"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/img_pic"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="鑫爷"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="liu314716224@126.com"
+            android:textColor="#9bc8e8"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_chevron" />
+</RelativeLayout>
