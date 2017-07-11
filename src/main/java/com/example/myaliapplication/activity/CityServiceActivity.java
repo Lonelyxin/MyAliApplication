@@ -1,6 +1,7 @@
 package com.example.myaliapplication.activity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.drawable.ClipDrawable;
 import android.os.Handler;
 import android.os.Message;
