@@ -1,142 +1,88 @@
 {
-  "canbaoTime": "2013-09-01",
-  "canbaoStatus": "正常参保",
-  "payableMonths": "50个月",
-  "actualMonths": "50个月",
-  "personPayable": "10490",
-  "coPayable": "19912",
-  "totalPayable": "30050",
-  "personArrears": "0元",
-  "coArrears": "0元",
-  "personPaid": "10490",
-  "coPaid": "19912",
-  "totalPaid": "19912",
+  "canbaoTime": "参保时间",
+  "canbaoStatus": "参保状态",
+  "payableMonths": "应缴月数",
+  "actualMonths": "实缴月数",
+  "personPayable": "个人应缴",
+  "coPayable": "单位应缴",
+  "totalPayable": "应缴总额",
+  "personArrears": "个人欠缴",
+  "coArrears": "单位欠缴",
+  "personPaid": "个人实缴",
+  "coPaid": "单位实缴",
+  "totalPaid": "实缴总额",
   "details": [
     {
-      "paidTime": "2017年7月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
+      "paidTime": "缴纳时间1",
+      "personPaid": "个人缴费",
+      "coPaid": "单位缴费",
+      "totalPaid": "合计缴费",
+      "baseNum": "缴费基数",
+      "paymentType": "缴费类型",
+      "isPaid": "是否缴费"
     },
     {
-      "paidTime": "2017年6月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
+      "paidTime": "缴纳时间2",
+      "personPaid": "个人缴费",
+      "coPaid": "单位缴费",
+      "totalPaid": "合计缴费",
+      "baseNum": "缴费基数",
+      "paymentType": "缴费类型",
+      "isPaid": "是否缴费"
     },
     {
-      "paidTime": "2017年5月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
+      "paidTime": "缴纳时间3",
+      "personPaid": "个人缴费",
+      "coPaid": "单位缴费",
+      "totalPaid": "合计缴费",
+      "baseNum": "缴费基数",
+      "paymentType": "缴费类型",
+      "isPaid": "是否缴费"
     },
     {
-      "paidTime": "2017年4月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
+      "paidTime": "缴纳时间4",
+      "personPaid": "个人缴费",
+      "coPaid": "单位缴费",
+      "totalPaid": "合计缴费",
+      "baseNum": "缴费基数",
+      "paymentType": "缴费类型",
+      "isPaid": "是否缴费"
     },
     {
-      "paidTime": "2017年3月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
+      "paidTime": "缴纳时间5",
+      "personPaid": "个人缴费",
+      "coPaid": "单位缴费",
+      "totalPaid": "合计缴费",
+      "baseNum": "缴费基数",
+      "paymentType": "缴费类型",
+      "isPaid": "是否缴费"
     },
     {
-      "paidTime": "2017年2月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
+      "paidTime": "缴纳时间6",
+      "personPaid": "个人缴费",
+      "coPaid": "单位缴费",
+      "totalPaid": "合计缴费",
+      "baseNum": "缴费基数",
+      "paymentType": "缴费类型",
+      "isPaid": "是否缴费"
     },
     {
-      "paidTime": "2017年1月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
+      "paidTime": "缴纳时间7",
+      "personPaid": "个人缴费",
+      "coPaid": "单位缴费",
+      "totalPaid": "合计缴费",
+      "baseNum": "缴费基数",
+      "paymentType": "缴费类型",
+      "isPaid": "是否缴费"
     },
     {
-      "paidTime": "2016年12月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
-    },
-    {
-      "paidTime": "2016年11月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
-    },
-    {
-      "paidTime": "2016年10月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
-    },
-    {
-      "paidTime": "2016年9月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
-    },
-    {
-      "paidTime": "2016年8月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
-    },
-    {
-      "paidTime": "2016年7月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
-    },
-    {
-      "paidTime": "2016年5月的缴费详情",
-      "personPaid": "211.95元",
-      "coPaid": "503.38元",
-      "totalPaid": "715.33元",
-      "baseNum": "2649元",
-      "paymentType": "正常应缴",
-      "isPaid": "足额缴费"
+      "paidTime": "缴纳时间8",
+      "personPaid": "个人缴费",
+      "coPaid": "单位缴费",
+      "totalPaid": "合计缴费",
+      "baseNum": "缴费基数",
+      "paymentType": "缴费类型",
+      "isPaid": "是否缴费"
     }
   ]
 }
