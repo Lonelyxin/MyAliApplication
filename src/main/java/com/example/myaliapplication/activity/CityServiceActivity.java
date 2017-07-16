@@ -116,43 +116,14 @@ public class CityServiceActivity extends AppCompatActivity implements View.OnCli
     }
 
     private void initTabLayout() {
-        String[] titles = new String[]{"车主", "医疗", "政务", "交通", "综合"};
-        int[] layout_tab = new int[]{
-                R.layout.layout_tab1,
-                R.layout.layout_tab2,
-                R.layout.layout_tab3,
-                R.layout.layout_tab4,
-                R.layout.layout_tab5,};
         tablayout = (TabLayout) findViewById(R.id.tablayout);
-        //设置TabLayout的模式
-        tablayout.setTabMode(TabLayout.MODE_FIXED);
-        //为TabLayout添加tab
-        tablayout.addTab(tablayout.newTab());
-        tablayout.addTab(tablayout.newTab());
-        tablayout.addTab(tablayout.newTab());
-        tablayout.addTab(tablayout.newTab());
-        tablayout.addTab(tablayout.newTab());
-        for (int i = 0; i < 5; i++) {
-            TabLayout.Tab tab = tablayout.getTabAt(i);//获得每一个tab
-            tab.setCustomView(layout_tab[i]);//给每一个tab设置view
-            TextView textView = (TextView) tab.getCustomView().findViewById(R.id.tv_tab);
-            if (i == 0) {
-                // 设置第一个tab的TextView是被选择的样式
-                textView.setSelected(true);//第一个tab被选中00.
-                tab.select();
-                ((ClipDrawable) textView.getBackground()).setLevel(10000);//第一个tab背景铺满
+        tablayout.getTabAt(0).getCustomView().findViewById(R.id.tv_tab).getBackground().setLevel(10000);
+        tablayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                isTouchFling = false;
             }
-            textView.setText(titles[i]);//设置tab上的文字
-            View tabView = (View) tab.getCustomView().getParent();
-            tabView.setTag(i);
-            tabView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    int pos = (int) v.getTag();
-                    isTouchFling = false;
-                }
-            });
-        }
+        });
         tablayout.addOnTabSelectedListener(this);
     }
 

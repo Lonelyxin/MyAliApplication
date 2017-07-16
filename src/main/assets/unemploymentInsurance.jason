@@ -1,79 +1,89 @@
 {
-  "canbaoTime": "失业参保时间",
-  "canbaoStatus": "失业参保状态!",
-  "payableMonths": "失业应缴月数",
-  "actualMonths": "失业实缴月数",
-  "personPayable": "失业个人应缴",
-  "coPayable": "失业单位应缴",
-  "totalPayable": "失业应缴总额",
-  "personArrears": "失业个人欠缴",
-  "coArrears": "失业单位欠缴",
-  "personPaid": "失业个人实缴",
-  "coPaid": "失业单位实缴",
-  "totalPaid": "失业实缴总额",
+  "canbaoTime": "2013-09-01",
+  "canbaoStatus": "正常参保",
+  "payableMonths": "50个月",
+  "actualMonths": "50个月",
+  "personPayable": "1920.40",
+  "coPayable": "1972.72",
+  "totalPayable": "1505",
+  "personArrears": "0",
+  "coArrears": "0",
+  "personPaid": "1920.40",
+  "coPaid": "1972.72",
+  "totalPaid": "1505",
   "details": [
     {
-      "paidTime": "失业缴纳时间1",
-      "personPaid": "失业个人缴费",
-      "coPaid": "失业单位缴费",
-      "totalPaid": "失业合计缴费",
-      "baseNum": "失业缴费基数",
-      "paymentType": "失业缴费类型",
-      "isPaid": "失业是否缴费"
+      "paidTime": "2017年6月的缴费详情",
+      "personPaid": "7.95",
+      "coPaid": "31.79",
+      "totalPaid": "39.74",
+      "baseNum": "2649.35",
+      "paymentType": "正常应缴",
+      "isPaid": "足额缴费"
     },
     {
-      "paidTime": "失业缴纳时间2",
-      "personPaid": "失业个人缴费",
-      "coPaid": "失业单位缴费",
-      "totalPaid": "失业合计缴费",
-      "baseNum": "失业缴费基数",
-      "paymentType": "失业缴费类型",
-      "isPaid": "失业是否缴费"
+      "paidTime": "2017年5月的缴费详情",
+      "personPaid": "7.95",
+      "coPaid": "31.79",
+      "totalPaid": "39.74",
+      "baseNum": "2649.35",
+      "paymentType": "正常应缴",
+      "isPaid": "足额缴费"
     },
     {
-      "paidTime": "失业缴纳时间3",
-      "personPaid": "失业个人缴费",
-      "coPaid": "失业单位缴费",
-      "totalPaid": "失业合计缴费",
-      "baseNum": "失业缴费基数",
-      "paymentType": "失业缴费类型",
-      "isPaid": "失业是否缴费"
+      "paidTime": "2017年4月的缴费详情",
+      "personPaid": "7.95",
+      "coPaid": "31.79",
+      "totalPaid": "39.74",
+      "baseNum": "2649.35",
+      "paymentType": "正常应缴",
+      "isPaid": "足额缴费"
     },
     {
-      "paidTime": "失业缴纳时间4",
-      "personPaid": "失业个人缴费",
-      "coPaid": "失业单位缴费",
-      "totalPaid": "失业合计缴费",
-      "baseNum": "失业缴费基数",
-      "paymentType": "失业缴费类型",
-      "isPaid": "失业是否缴费"
+      "paidTime": "2017年3月的缴费详情",
+      "personPaid": "7.95",
+      "coPaid": "31.79",
+      "totalPaid": "39.74",
+      "baseNum": "2649.35",
+      "paymentType": "正常应缴",
+      "isPaid": "足额缴费"
     },
     {
-      "paidTime": "失业缴纳时间5",
-      "personPaid": "失业个人缴费",
-      "coPaid": "失业单位缴费",
-      "totalPaid": "失业合计缴费",
-      "baseNum": "失业缴费基数",
-      "paymentType": "失业缴费类型",
-      "isPaid": "失业是否缴费"
+      "paidTime": "2017年2月的缴费详情",
+      "personPaid": "7.95",
+      "coPaid": "31.79",
+      "totalPaid": "39.74",
+      "baseNum": "2649.35",
+      "paymentType": "正常应缴",
+      "isPaid": "足额缴费"
     },
     {
-      "paidTime": "失业缴纳时间6",
-      "personPaid": "失业个人缴费",
-      "coPaid": "失业单位缴费",
-      "totalPaid": "失业合计缴费",
-      "baseNum": "失业缴费基数",
-      "paymentType": "失业缴费类型",
-      "isPaid": "失业是否缴费"
+      "paidTime": "2017年1月的缴费详情",
+      "personPaid": "7.95",
+      "coPaid": "31.79",
+      "totalPaid": "39.74",
+      "baseNum": "2649.35",
+      "paymentType": "正常应缴",
+      "isPaid": "足额缴费"
     },
     {
-      "paidTime": "失业缴纳时间7",
-      "personPaid": "失业个人缴费",
-      "coPaid": "失业单位缴费",
-      "totalPaid": "失业合计缴费",
-      "baseNum": "失业缴费基数",
-      "paymentType": "失业缴费类型",
-      "isPaid": "失业是否缴费"
+      "paidTime": "2016年12月的缴费详情",
+      "personPaid": "7.95",
+      "coPaid": "31.79",
+      "totalPaid": "39.74",
+      "baseNum": "2649.35",
+      "paymentType": "正常应缴",
+      "isPaid": "足额缴费"
+    },
+    {
+      "paidTime": "2016年11月的缴费详情",
+      "personPaid": "7.95",
+      "coPaid": "31.79",
+      "totalPaid": "39.74",
+      "baseNum": "2649.35",
+      "paymentType": "正常应缴",
+      "isPaid": "足额缴费"
     }
+
   ]
 }
